@@ -17,6 +17,23 @@
 </div>
 @endif
 
+<div class="section-components">
+    <ul class="list-group components">
+        <li class="list-group-item group-name">
+            <strong>AuthZ Related Monitors</strong>
+        </li>
+
+    <div class="group-items">
+         <li class="list-group-item sub-component">
+        <a href="https://app.thousandeyes.com/dashboard/?dashboardId=5be4740690b03566fb36c0ae" target="_blank" class="links">Thousand Eyes</a></li>
+         <li class="list-group-item sub-component">
+        <a href="https://insights.newrelic.com/accounts/459454/dashboards/501723" target="_blank" class="links">New Relic Insights</a></li>
+    </div>
+    
+    </ul>
+
+</div>
+
 @if($display_metrics && $app_graphs)
 <div class="section-metrics">
     @include('partials.metrics')
